@@ -3360,8 +3360,8 @@ take precedence the ones in this file. */
 		#banner input[type="button"],
 		#banner button,
 		#banner .button {
-			background-color: #1abc9c;
-			color: #fff !important;
+			background-color: rgba(95, 94, 94, 1);
+	    box-shadow: none;
 		}
 
 			#banner input[type="submit"]:hover,
@@ -3369,7 +3369,7 @@ take precedence the ones in this file. */
 			#banner input[type="button"]:hover,
 			#banner button:hover,
 			#banner .button:hover {
-				background-color: #1dd2af;
+				background-color: #F1F0F0;
 			}
 
 			#banner input[type="submit"]:active,
@@ -3770,8 +3770,10 @@ take precedence the ones in this file. */
 			}
 
 		.post.style1 {
-			background-color: #fff;
-			color: #444;
+		background-image: url(../../images/bibleimage.jpg);
+		background-position: 50% center;
+		background-color: #fff;
+		color: #444;
 		}
 
 			.post.style1 input, .post.style1 select, .post.style1 textarea {
@@ -3779,7 +3781,7 @@ take precedence the ones in this file. */
 			}
 
 			.post.style1 a {
-				color: #1abc9c;
+				color: #095a99;
 			}
 
 			.post.style1 strong, .post.style1 b {
@@ -3835,7 +3837,7 @@ take precedence the ones in this file. */
 				.post.style1 .button.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-					color: #1abc9c !important;
+					color: #095a99 !important;
 				}
 
 					.post.style1 input[type="submit"].alt:hover,
@@ -3871,10 +3873,13 @@ take precedence the ones in this file. */
 					color: #fff !important;
 				}
 
-			.post.style1.invert {
-				background-color: #1abc9c;
-				color: rgba(255, 255, 255, 0.75);
-			}
+				.post.style1.invert {
+					background-image: url(images/texture02.jpg);
+					background-position: 30% center;
+					background-color: #fff;
+					color: #444;
+				}
+
 
 				.post.style1.invert input, .post.style1.invert select, .post.style1.invert textarea {
 					color: #fff;
@@ -3958,7 +3963,7 @@ take precedence the ones in this file. */
 					}
 
 				.post.style1.invert .content {
-					background: #1abc9c;
+					background: #095a99;
 				}
 
 					.post.style1.invert .content header p {
@@ -3980,10 +3985,17 @@ take precedence the ones in this file. */
 						}
 
 				.post.style1.invert .image {
-					background-color: #1abc9c;
+					background-image: url(../../images/texture02.jpg);
+					background-position: 30% center;
+					background-color: #fff;
+					color: #444;
+					}
+
 				}
 
 		.post.style2 {
+			background-image: url(../../images/raisedhands.jpg/);
+			background-position: 50% center;
 			background-color: #fff;
 			color: #444;
 		}
