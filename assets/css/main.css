@@ -18,6 +18,15 @@ take precedence the ones in this file. */
 		vertical-align: baseline;
 	}
 
+	background-image: url(images\hands-jail-bars.jpg);
+	background-size: cover;
+	color: rgba(255, 255, 255, 0.75);
+	text-shadow: 1px 1px 15px #333;
+	text-align: center;
+	cursor: default;
+	padding: 10em 4em 9em 4em;
+}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -3304,8 +3313,10 @@ take precedence the ones in this file. */
 /* Banner */
 
 	#banner {
-		background-color: #3498db;
+		background-image: url(../../images/liftedhands.jpeg);
+		background-size: cover;
 		color: rgba(255, 255, 255, 0.75);
+		text-shadow: 1px 1px 15px #333;
 		text-align: center;
 		cursor: default;
 		padding: 10em 4em 9em 4em;
