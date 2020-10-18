@@ -29,6 +29,23 @@ added to the button in the index html file as well.*/
   background-color: rgba(188, 46, 26, .8);
 }
 
+#banner {
+  background-image: url(../../images/liftedhands.jpeg);
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 1px 1px 15px #333;
+  text-align: center;
+  cursor: default;
+  padding: 15em 4em 15em 4em;
+}
+
+post.style2 a {
+    color: #095A99;
+}
+
+.whitecopy {
+  color: #fff
+}
 
 
 /*********************************************
